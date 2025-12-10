@@ -32,3 +32,15 @@ We can think that the arrow rotate is actually a cursor moving on a straight lin
     -   The other way, which is what i use, is just pure brute force, find all posible pattern and build the new string to check if it is same with original.
 
 ---
+
+# Day 3
+
+#### Part 1
+
+-   2 digits are kinda simple, I firstly use an array to store biggest number for each tens digit (array index 5 will store the highest 5x). Then just a 2 cursor big loop
+
+#### Part 2
+
+-   For 12 digits, we cannot do that, since there are too much loops to check. We know that, it must be the biggest number and also most left posible one (since the order must not change). For example, if I want to get the first digit, start from 9, I have to check if from index of 9, do I still have enough number to build 12 digits. If yes, take that 9, if not, reduce to 8
+
+---
