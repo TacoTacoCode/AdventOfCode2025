@@ -44,3 +44,15 @@ We can think that the arrow rotate is actually a cursor moving on a straight lin
 -   For 12 digits, we cannot do that, since there are too much loops to check. We know that, it must be the biggest number and also most left posible one (since the order must not change). For example, if I want to get the first digit, start from 9, I have to check if from index of 9, do I still have enough number to build 12 digits. If yes, take that 9, if not, reduce to 8
 
 ---
+
+# Day 4
+
+#### Part 1
+
+-   Today is kinda simple, using Complex type to hold row number and column number, then for every position I just count the surrouding by add the direction
+
+#### Part 2
+
+-   Well, just doing the same as P1 untils we can't do, so just another loop and a counter, remember to exlcude the rolls which are removed in every loop
+
+---
