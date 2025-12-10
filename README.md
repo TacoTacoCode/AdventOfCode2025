@@ -56,3 +56,15 @@ We can think that the arrow rotate is actually a cursor moving on a straight lin
 -   Well, just doing the same as P1 untils we can't do, so just another loop and a counter, remember to exlcude the rolls which are removed in every loop
 
 ---
+
+# Day 5
+
+#### Part 1
+
+-   Kinda easy, parsing and just 2 loops check to see if a ingredient is in any range or not
+
+#### Part 2
+
+-   To count total number in all ranges, we should clean up/combine all range first. Just need exrta list to hold new combined ranges, with some logic for the contain or overlap and we are done.
+
+---
