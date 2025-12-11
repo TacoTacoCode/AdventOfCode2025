@@ -51,6 +51,6 @@ public class FileReadHelper
                 }
             }
         }
-        return index;
+        return index + 1; // count line
     }
 }
