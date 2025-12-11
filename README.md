@@ -68,3 +68,18 @@ We can think that the arrow rotate is actually a cursor moving on a straight lin
 -   To count total number in all ranges, we should clean up/combine all range first. Just need exrta list to hold new combined ranges, with some logic for the contain or overlap and we are done.
 
 ---
+
+# Day 6
+
+This is a special day, I use excel to do it
+
+#### Part 1
+
+-   Transform the input to csv file, just need to replace all space using VSC regex replace `(\s){1,}`, then import to excel and with some formular, we are good
+
+#### Part 2
+
+-   With the hype of excel, this is a little bit tricky, but, excel allows us to flip the data from horizontal to vertical, all we need to do is split the current input as their correct position. Use this regex `(\s)?` to split all by a tab and import to excel. The formular is hard, so I have to ask my "friend" for help.
+-   One side node is we can still implement a program for this problem. You only need to notice that at the operator line, the position of a operator is begining of its block, so we only need to split the input by block and yeah everything will be easy.
+
+---
